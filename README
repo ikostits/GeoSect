@@ -1,0 +1,15 @@
+Required libraries to build GeoSect:
+  - Qt
+  - Boost
+
+To build GeoSect for Linux, Mac or Windows:
+1. run in the GeoSect folder
+	$qmake -project
+  this will create a GeoSect.pro file
+2. run
+	$qmake
+  this will create a Makefile
+3. run
+	$make
+  this will compile the code and create an executable GeoSect
+
